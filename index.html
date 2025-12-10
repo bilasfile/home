@@ -1,9 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta http-equiv="refresh" content="0; url=https:                                                                                     
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Drive Link Button</title>
+    <style>
+        /* CSS for the button styles */
+        .blue-button {
+            background-color: #4285F4; /* Google Blue color */
+            color: white;
+            padding: 12px 24px; /* Slightly larger padding for a better feel */
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 6px; /* Slightly more rounded corners */
+            font-family: 'Roboto', Arial, sans-serif; /* A more modern font choice */
+            font-size: 18px;
+            font-weight: 500;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease; /* Smooth hover transition */
+        }
+
+        /* Hover effect to make it interactive */
+        .blue-button:hover {
+            background-color: #3b7ad7; /* A slightly darker blue on hover */
+        }
+
+        /* Basic centering for the entire page content */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f4f8; /* Light background color */
+        }
+    </style>
 </head>
 <body>
-    <p>If you are not redirected automatically, <a href="https://drive.google.com/drive/folders/1DICrIgCRmck5XmfXckJcoyL32ZHieHJm?usp=drive_link">click here</a>.</p>
+
+    <a 
+        href="https://drive.google.com/drive/mobile/folders/1DICrIgCRmck5XmfXckJcoyL32ZHieHJm?usp=drive_link&fbclid=IwY2xjawOl7BdleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAwzNTA2ODU1MzE3MjgAAR6KpdhaBdsbohRmuZozV4yWbqYCPM5ws6P3JNBWDWgDUSYDGLyyeFb18BN9zw_aem_rdGMbHTJ8kwzdjEEXnuPjw" 
+        class="blue-button"
+        target="_blank"
+    >
+        Open Drive Folder
+    </a>
+
 </body>
 </html>
